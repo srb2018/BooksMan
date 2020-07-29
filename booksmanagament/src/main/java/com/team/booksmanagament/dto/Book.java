@@ -17,19 +17,6 @@ import lombok.Setter;
 @Entity
 public class Book {
 	
-	public Book() {
-		super();
-	}
-	
-	public Book(String id, String title, String publishedDate, String[] authors, String price) {
-		super();
-		this.id = id;
-		this.title = title;
-		this.publishedDate = publishedDate;
-		this.authors = authors;
-		this.price = price;
-	}
-	
 	@Id
 	public String id;
 	
